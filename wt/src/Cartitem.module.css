@@ -1,0 +1,20 @@
+.btn2{
+
+margin:8px;
+background: white;
+color: black;
+border:0.5px solid;
+}
+.btn2:hover{
+  background: black;
+  color:white;
+  border:none;
+}
+.btn3{
+  background: orangered;
+  border:none;
+}
+.btn3:hover{
+  background: white;
+  border:1px solid orangered;
+}

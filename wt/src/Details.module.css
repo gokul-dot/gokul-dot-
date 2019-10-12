@@ -1,0 +1,28 @@
+.btn{
+  border:none;
+  
+  background: var(--lightblue);
+  margin-right: 200px;
+  width:100px;
+  overflow: hidden;
+}
+
+
+.btn:hover{
+  transform:scale(1.2);
+  transition: all 0.4s linear;
+  background: white; 
+  border:1px solid blue;
+}
+.btn1{
+  border:none;
+ 
+  color:black;
+  background: orangered;
+}
+.btn1:hover{
+  transform:scale(1.2);
+  transition: all 0.4s linear;
+  background: white;
+  border:1px solid orangered;
+}

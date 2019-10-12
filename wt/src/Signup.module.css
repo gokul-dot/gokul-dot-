@@ -1,0 +1,63 @@
+.container{
+  height:400px;
+  width: 400px;
+  padding-top: 50px;
+  margin:auto;
+  transition: all 0.4s linear;
+}
+.container:hover{
+  transform:scale(1.04);
+}
+.form{
+  padding: 10px;
+}
+.email{
+  padding: 5px;
+  font-size: calc(10px + 2vmin); 
+  letter-spacing: 1px;
+  margin-right: 150px;
+}
+.password{
+  padding: 5px;
+  font-size: calc(10px + 2vmin); 
+  letter-spacing: 1px;
+  margin-right: 150px;
+}
+.emaill{
+  margin-right: 150px;
+}
+.pass{
+  margin-right: 150px;
+}
+.etext{
+  border-right:none;
+  border-left:none;
+  border-top:none;
+  border-bottom-color: rgb(255, 69, 0);
+  height:25px;
+  width: 120%;
+}
+.ptext{
+  border-left: none;
+  border-top:none; 
+  border-right: none;
+  border-bottom-color: orangered;
+  width: 120%;
+  height:25px;
+  background: #fff;
+}
+.btn{
+  border-radius:28px;
+  border:none;
+ 
+  background:orangered; 
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 30px;
+  width:25%;
+  height:35px;
+  box-shadow: 0px 2px 10px rgb(71,71,71);
+}
+.btn:hover{
+  background: transparent;
+}

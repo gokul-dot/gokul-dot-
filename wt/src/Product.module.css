@@ -1,0 +1,9 @@
+.wrap{
+ box-shadow: 0px 2px 10px rgb(71,71,71);
+   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+
+.h{
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  background: black;
+  height:100px;
+  color:white;
+}
+:root{
+  --lightblue:#009ff2;
+}
+
+.h ul li{
+  float: left;
+  list-style: none;
+  margin-top:15px;
+}
+.ab{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-right: 70px;
+  transition: all 0.4s linear;
+}
+.ab:hover{
+  color:orange;
+}
+.ac{
+  font-size: 35px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  margin-right:500px;
+  color:orange;
+}
+.h ul li input{
+  border:none;
+  height:25px;
+  margin-right:15px; 
+  margin-top: 15px;
+  border-radius: 24px;
+  width:250px;
+}
+.h ul li button{
+  height: 24px;
+  text-align: center;
+  background: orangered;
+  border:none;
+  border-radius: 24px;
+  margin-right:100px;
+  margin-top: 15px;
+  font-size:20px;
+  display: inline-block;
+}
